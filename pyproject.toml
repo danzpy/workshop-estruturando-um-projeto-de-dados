@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "estruturandoumprojetodozero"
+version = "0.1.0"
+description = "Workshop Estruturando um projeto de dados do zero"
+authors = ["Daniel L. Alves <daniel.leonssio@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.3"
+pandas = "^2.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
