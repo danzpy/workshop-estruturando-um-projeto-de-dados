@@ -1,11 +1,11 @@
-import os # para manipular arquivos e pastas
-import glob # para listar arquivos
-import pandas as pd
+import glob  # para listar arquivos
+import os  # para manipular arquivos e pastas
 from typing import List
 
-
+import pandas as pd
 
 path = 'data/input'
+
 
 def extract_from_excel(path: str) -> List[pd.DataFrame]:
 
@@ -24,7 +24,8 @@ def extract_from_excel(path: str) -> List[pd.DataFrame]:
 
     return data_frame_list
 
-if __name__ == "__main__":
+
+if __name__ == '__main__':
     data_frame_list = extract_from_excel(path)
     print(data_frame_list)
 
