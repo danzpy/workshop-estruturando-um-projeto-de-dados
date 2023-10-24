@@ -11,7 +11,7 @@ def test_concatenar_lista_df():
     """
 
     Função para utilizar o arrange e act para testar a função concatenate
-
+    
     """
 
     arrange = pd.concat([df1, df2], ignore_index=True)

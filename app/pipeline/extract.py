@@ -1,5 +1,4 @@
 import glob  # para listar arquivos
-import os  # para manipular arquivos e pastas
 from typing import List
 
 import pandas as pd

@@ -12,8 +12,14 @@ pytest = "^7.4.2"
 openpyxl = "^3.1.2"
 isort = "^5.12.0"
 blue = "^0.9.1"
+mkdocs = "^1.5.3"
+taskipy = "^1.12.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.taskipy.tasks]
+test = "pytest tests\tests_pipeline.py"
+run = "python3 app\main.py"
