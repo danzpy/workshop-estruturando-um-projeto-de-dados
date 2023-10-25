@@ -14,6 +14,10 @@ isort = "^5.12.0"
 blue = "^0.9.1"
 mkdocs = "^1.5.3"
 taskipy = "^1.12.0"
+mkdocstrings-python = "^1.7.3"
+pygments = "^2.16.1"
+mkdocs-material = "^9.4.6"
+pymdown-extensions = "^10.3.1"
 
 
 [build-system]
@@ -21,5 +25,6 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
-test = "pytest tests\tests_pipeline.py"
-run = "python3 app\main.py"
+test = "pytest tests/tests_pipeline.py"
+run = "python app/main.py"
+kill = "kill -9 $(lsof -t -i :8000)"

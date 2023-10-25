@@ -1,1 +1,20 @@
-site_name: My Docs
+site_name: Estruturando um projeto de dados do zero
+theme:
+  name: material
+  pallete:
+    primary: red
+  language: pt
+
+  repo_name: "workshop-estruturando-um-projeto-de-dados"
+  repo_url: "https://github.com/danzpy/workshop-estruturando-um-projeto-de-dados"
+
+  markdown_extensions:
+    - pymdownx.superfencer:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+
+plugins:
+  - search
+  - mkdocstrings:
+      default_handler: python
