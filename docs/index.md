@@ -12,4 +12,4 @@ O objetivo deste projeto é demonstrar como técnicas de refatoração podem ser
 
 ## Contato
 
-Para quaisquer dúvidas, feedbacks ou suporte relacionado ao projeto, você pode entrar em contato diretamente através do e-mail: [daniel.leonssio@gmail.com](mailto:daniel.leonssio@hotmail.com). Estou sempre disposto a ajudar!
+Para quaisquer dúvidas, feedbacks ou suporte relacionado ao projeto, você pode entrar em contato diretamente através do e-mail: [daniel.leonssio@hotmail.com](mailto:daniel.leonssio@hotmail.com). Estou sempre disposto a ajudar!
